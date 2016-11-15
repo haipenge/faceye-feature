@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+<definition name="default.web"
+		template="/component/core/template/clean-zone-web/default_template.jsp">
+		<put-attribute name="default-header"
+			value="/component/core/template/clean-zone-web/default_header.jsp"></put-attribute>
+		<put-attribute name="default-center"
+			value="/component/core/template/clean-zone-web/default_center.jsp"></put-attribute>
+		<put-attribute name="default-footer"
+			value="/component/core/template/clean-zone-web/default_footer.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

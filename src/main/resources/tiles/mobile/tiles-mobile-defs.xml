@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!--默认模板，具有头部导航，底部按钮的基础模板-->
+	<definition name="default.mobile" template="/component/core/template/mobile/default.jsp">
+	    <put-attribute name="default-header"
+			value="/component/core/template/mobile/default_header.jsp"></put-attribute>
+		<put-attribute name="default-center"
+			value="/component/core/template/mobile/default_center.jsp"></put-attribute>
+		<put-attribute name="default-footer"
+			value="/component/core/template/mobile/default_footer.jsp"></put-attribute>
+	</definition>
+
+<!--空页面模板-->
+	<definition name="default.empty" template="/component/core/template/mobile/default_empty.jsp">
+		<put-attribute name="default-center" value="/component/core/template/mobile/default_center.jsp"></put-attribute>
+	</definition>
+
+	<!--简单模板，带版权页-->
+	<definition name="default.simple" template="/component/core/template/mobile/default_simple.jsp">
+		<put-attribute name="default-center"
+			value="/component/core/template/mobile/default_center.jsp"></put-attribute>
+		<put-attribute name="default-footer"
+			value="/component/core/template/mobile/default_footer.jsp"></put-attribute>
+
+	</definition>
+
+</tiles-definitions>
