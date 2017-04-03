@@ -156,6 +156,7 @@ $(document).ready(function() {
 		Img.small2Larger(this);
 	});
 	$('form').find('input:nth-child(1)').focus();
+    $('input[name="check-all"]').click(function(){Check.onCheck(this,$('input[name="check-single"]'))});
 });
 /**
  * 当通过ajax方式访问受保护页面，而又未登陆时，触发本事件，并弹出登陆对话框
